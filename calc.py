@@ -20,6 +20,6 @@ num2 = st.number_input("두 번째 숫자를 입력하세요")
 
 operation = st.selectbox("연산을 선택하세요", ["+", "-", "*", "/"])
 
-if st.button("계산"):
+if st.button("계산하기"):
     result = calculate(num1, num2, operation)
     st.write(f"결과: {result}")
